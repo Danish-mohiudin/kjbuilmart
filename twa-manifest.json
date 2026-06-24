@@ -17,12 +17,31 @@
   "maskableIconUrl": "https://shop.kiffayatjaffriconstructions.com/icons/icon-512.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
-    "path": "C:/SecureKeys/kiffayat-release.keystore",
+    "path": "/home/bazik/SecureKeys/kiffayat-release.keystore",
     "alias": "kiffayat-key"
   },
-  "appVersionName": "6",
-  "appVersionCode": 6,
-  "shortcuts": [],
+  "appVersionName": "8",
+  "appVersionCode": 8,
+  "shortcuts": [
+    {
+      "name": "Orders",
+      "shortName": "Orders",
+      "url": "https://shop.kiffayatjaffriconstructions.com/orders",
+      "chosenIconUrl": "https://shop.kiffayatjaffriconstructions.com/icons/icon-512.png"
+    },
+    {
+      "name": "Cart",
+      "shortName": "Cart",
+      "url": "https://shop.kiffayatjaffriconstructions.com/cart",
+      "chosenIconUrl": "https://shop.kiffayatjaffriconstructions.com/icons/icon-512.png"
+    },
+    {
+      "name": "Profile",
+      "shortName": "Profile",
+      "url": "https://shop.kiffayatjaffriconstructions.com/profile",
+      "chosenIconUrl": "https://shop.kiffayatjaffriconstructions.com/icons/icon-512.png"
+    }
+  ],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://shop.kiffayatjaffriconstructions.com/manifest.json",
   "fallbackType": "customtabs",
@@ -43,5 +62,5 @@
   "fileHandlers": [],
   "launchHandlerClientMode": "",
   "displayOverride": [],
-  "appVersion": "6"
+  "appVersion": "8"
 }
