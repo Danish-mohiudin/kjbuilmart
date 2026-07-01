@@ -27,7 +27,7 @@ def twaManifest = [
     name: 'KJ BUILD MART', // The application name.
     launcherName: 'KJ BUILD MART', // The name shown on the Android Launcher.
     themeColor: '#442624', // The color used for the status bar.
-    themeColorDark: '#000000', // The color used for the dark status bar.
+    themeColorDark: '#442624', // The color used for the dark status bar.
     navigationColor: '#000000', // The color used for the navigation bar.
     navigationColorDark: '#000000', // The color used for the dark navbar.
     navigationDividerColor: '#000000', // The navbar divider color.
@@ -57,8 +57,8 @@ android {
         applicationId "com.kiffayat.ecom"
         minSdkVersion 21
         targetSdkVersion 35
-        versionCode 8
-        versionName "8"
+        versionCode 9
+        versionName "9"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name

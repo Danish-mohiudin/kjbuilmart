@@ -5,7 +5,7 @@
   "launcherName": "KJ BUILD MART",
   "display": "standalone",
   "themeColor": "#442624",
-  "themeColorDark": "#000000",
+  "themeColorDark": "#442624",
   "navigationColor": "#000000",
   "navigationColorDark": "#000000",
   "navigationDividerColor": "#000000",
@@ -20,8 +20,8 @@
     "path": "/home/bazik/SecureKeys/kiffayat-release.keystore",
     "alias": "kiffayat-key"
   },
-  "appVersionName": "8",
-  "appVersionCode": 8,
+  "appVersionName": "9",
+  "appVersionCode": 9,
   "shortcuts": [
     {
       "name": "Orders",
@@ -62,5 +62,5 @@
   "fileHandlers": [],
   "launchHandlerClientMode": "",
   "displayOverride": [],
-  "appVersion": "8"
+  "appVersion": "9"
 }
